@@ -64,7 +64,7 @@ app.use('/api/members', require('./routes/memberRoutes'));
 app.use('/api/gym-owner', require('./routes/gymOwnerRoutes'));
 
 app.get('/', (req, res) => {
-    res.send('API is running...');
+    res.send('CI/CD TEST AUTO DEPLOY...');
 });
 
 // Global Error Handler
